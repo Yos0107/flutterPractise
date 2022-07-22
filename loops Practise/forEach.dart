@@ -81,15 +81,10 @@ void main(){
   'age' : 'and I am 21 years old ',
   'hobby' : 'and also I love to play futsal'
  };
-
  details.forEach((key, value) {
     profile = profile  + value;
-  
-
  });
  print(profile);
-
-
 }
 
 

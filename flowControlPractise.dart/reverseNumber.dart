@@ -5,15 +5,10 @@ void main(){
   print("Enter a 5 digit number: ");
 
   int digit = int.parse(stdin.readLineSync()!);
-  String reverse = digit.toString();
-  print(reverse);
+  String reversenum = digit.toString();
+  print(" Heres a $reversenum");
+  print(reversenum.runtimeType);
 
-  var reverseNum = {reverse.split('').join()};
-
-  // print("The reverse of $digit is $reverseNum");
-  print(reverseNum);
-
- 
-  
-
+  print("the reverse of $digit is ${reversenum.split('').reversed.join()}"); 
 }
+
